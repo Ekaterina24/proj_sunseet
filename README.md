@@ -1,27 +1,15 @@
 # sunset_proj
 <Для запуска проекта>
-## Project setup
 ```
 1 шаг) npm install
 ```
 
-### Compiles and hot-reloads for development
 ```
 2 шаг) npm run serve
 ```
 <Открыть localhost>
 
-
-
-### Compiles and minifies for production
+Презентация
 ```
-npm run build
+https://docs.google.com/presentation/d/1oTXeAwY8eFX5Ta6eYZ4D3iRkitMty0OQ/edit#slide=id.g102ac2a1a73_0_36
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
