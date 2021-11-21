@@ -1,5 +1,6 @@
 # sunset_proj
-<Для запуска проекта>
+
+#<Для запуска проекта>
 ```
 1 шаг) npm install
 ```
@@ -9,7 +10,13 @@
 ```
 <Открыть localhost>
 
-Презентация
+#Презентация
 ```
 https://docs.google.com/presentation/d/1oTXeAwY8eFX5Ta6eYZ4D3iRkitMty0OQ/edit#slide=id.g102ac2a1a73_0_36
 ```
+
+#Сайт
+```
+http://sunset.std-1357.ist.mospolytech.ru/#/
+```
+
