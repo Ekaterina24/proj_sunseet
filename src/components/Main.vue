@@ -3,7 +3,7 @@
   <img src="../assets/fon.jpg" alt="fon">
   <div class="main__content">
     <h1>База отдыха "Каспийский Лотос"</h1>
-    <router-link :to="'/book'" class="btn">Забронировать</router-link>
+    <router-link :to="'/book'" class="btn">Забронировать домик</router-link>
   </div>
 </div>
 </template>

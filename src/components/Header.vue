@@ -9,7 +9,7 @@
         <router-link to="/services">Услуги</router-link>
         <router-link to="/about">О нас</router-link>
         <router-link to="/contacts">Контакты</router-link>
-        <router-link to="/book">Забронировать</router-link>
+        <router-link to="/book">Забронировать домик</router-link>
       </div>
     </div>
     <router-view></router-view>
