@@ -1,0 +1,49 @@
+<template>
+  <div class="header">
+    <div class="header__content">
+      <div class="header__logo">
+        <img src="../assets/logo-site.png" alt="logo">
+      </div>
+      <div class="header__menu">
+        <router-link to="/">Главная</router-link>
+        <router-link to="/services">Услуги</router-link>
+        <router-link to="/about">О нас</router-link>
+        <router-link to="/contacts">Контакты</router-link>
+        <router-link to="/book">Забронировать</router-link>
+      </div>
+    </div>
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Header"
+}
+</script>
+
+<style lang="scss">
+a {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  &__content {
+    padding: 20px;
+    display: flex;
+    background: #107e7e;
+    align-items: center;
+  }
+  &__logo {
+    margin-right: 50px;
+    img {
+      width: 30px;
+    }
+  }
+  &__menu {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+  }
+}
+</style>
