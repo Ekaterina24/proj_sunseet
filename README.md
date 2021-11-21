@@ -1,14 +1,17 @@
 # sunset_proj
-
+<Для запуска проекта>
 ## Project setup
 ```
-npm install
+1 шаг) npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+2 шаг) npm run serve
 ```
+<Открыть localhost>
+
+
 
 ### Compiles and minifies for production
 ```
