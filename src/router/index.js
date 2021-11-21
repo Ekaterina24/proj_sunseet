@@ -6,6 +6,7 @@ import About from "../components/About";
 import Contacts from "../components/Contacts";
 import Book from "../components/Book";
 import Service from "../components/Service";
+import Blog from "../components/Blog";
 
 Vue.use(VueRouter)
 
@@ -14,6 +15,7 @@ const routes = [
     { path: '/services', component: Services },
     { path: '/service/:id', component: Service },
     { path: '/about', component: About },
+    { path: '/blog', component: Blog },
     { path: '/contacts', component: Contacts },
     { path: '/book', component: Book },
 ]

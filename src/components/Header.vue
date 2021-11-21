@@ -6,10 +6,11 @@
       </div>
       <div class="header__menu">
         <router-link to="/">Главная</router-link>
-        <router-link to="/services">Услуги</router-link>
         <router-link to="/about">О нас</router-link>
-        <router-link to="/contacts">Контакты</router-link>
+        <router-link to="/services">Услуги</router-link>
+        <router-link to="/blog">Блог</router-link>
         <router-link to="/book">Забронировать домик</router-link>
+        <router-link to="/contacts">Контакты</router-link>
       </div>
     </div>
     <router-view></router-view>
@@ -28,10 +29,12 @@ a {
   color: white;
 }
 .header {
+  font-family: 'Montserrat', sans-serif;
+
   &__content {
     padding: 20px;
     display: flex;
-    background: #107e7e;
+    background: #002F55;
     align-items: center;
   }
   &__logo {
@@ -42,7 +45,7 @@ a {
   }
   &__menu {
     display: flex;
-    width: 500px;
+    width: 700px;
     justify-content: space-between;
   }
 }
